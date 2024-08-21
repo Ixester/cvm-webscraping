@@ -19,8 +19,6 @@ This repository involves extracting quarterly reports from publicly traded compa
 
 4. **S3 Storage:**
    - After conversion, the `.txt` files were stored in an AWS S3 bucket.
-   - The files are accessible via the following link: `s3://result-trimes-rad-cvm/result-trimet-txt/`
-   - The code used for uploading files to S3 is in the `OIE - S3AWS.py` file.
 
 5. **Web Scraping and Processing with Python:**
    - The `Noie.py` script performs data extraction from the CVM site.
@@ -61,4 +59,3 @@ This repository involves extracting quarterly reports from publicly traded compa
 ## Download Links
 
 - [Quarterly Reports - Google Drive](https://drive.google.com/drive/folders/1M5u6r2nS-JcLhaZSJTYJVeiCTOogoEGG?usp=drive_link)
-- [Converted Reports - S3 Bucket](s3://result-trimes-rad-cvm/result-trimet-txt/)
